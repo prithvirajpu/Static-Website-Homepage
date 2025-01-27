@@ -1,0 +1,590 @@
+
+
+
+/* Header portion... */
+
+ 
+body{
+    margin: 0;
+ }
+.header{
+    background-image: url(images/main\ pic.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 580px;
+ 
+}
+.headpart{
+    position: fixed;
+    background-color: black;
+    width: 78%;
+    height: 77px;
+    margin-left: 158px;
+    z-index: 10;
+}
+.icons{
+    width: 64px;
+    height: 77px;
+    position: absolute;
+    top: 16px;
+    left: -6px;
+}
+.icon1{
+    margin-left: 19px;
+    height: 80px;
+     width: 90px;
+    position: absolute;
+}
+.icon1 img{
+    width: 55px;
+    height: 44px;
+}
+#Carriers:hover{
+    color: white;
+}
+#Support:hover{
+    color: white;
+}
+#About:hover{
+    color: white;
+}
+.topnames{
+    display: flex;
+    position: absolute;
+    color: grey;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 105px;
+    margin-top: 22px;
+    padding: 10px;
+    column-gap: 48px;
+    font-size: 15px;
+ }
+.icon-store{
+    display: flex;
+    width: 50px;
+    height: 28px;
+    margin-left: 78%;
+    margin-top: 24px;
+    position: absolute;
+}
+.icon-store a img{
+    width: 67px;
+    height: 33px;
+}
+
+.icon2{
+        display: flex;
+        width: 50px;
+        height: 28px;
+        margin-left: 86%;
+        margin-top: 24px;
+        position: absolute;
+}
+.icon3{
+    display: flex;
+        width: 50px;
+        height: 28px;
+        margin-left: 91%;
+        margin-top: 24px;
+        position: absolute;
+}
+.icon4{
+    display: flex;
+        width: 50px;
+        height: 28px;
+        margin-left: 96%;
+        margin-top: 24px;
+        position: absolute;
+}
+.clash{
+    position: absolute;
+ 
+}
+#clash{
+    width: 282px;
+    margin-left: 220%;
+    margin-top: 116px;
+}
+
+
+/* second-portion */
+
+
+
+.second-portion{
+    width: 100%;
+    height: 624px;
+    display: flex;
+     
+}
+ 
+.left-side{
+    width: 66%;
+    height: 500px;
+    background-image: url(images/clash\ second.webp);
+    background-size: cover;
+    background-color: aquamarine;
+    margin-top: 74px;
+    margin-left: -336px; 
+}
+.right-side{
+    width: 43%;
+    margin-top: 134px;
+    margin-left: 117px;
+}
+.hd{
+    font-family: SupercellHeadline-Heavy, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+    margin-bottom: 21px;
+}
+p{
+     font-size: 18px;
+    margin: 0 0 30px;
+    line-height: 1.56;
+}
+.logos{
+    width: 200px;
+    display: flex;
+ }
+ .logo-s{
+    width: 166px;
+    padding: 13px;
+    margin-left: -17px;
+    height: 55px;
+ } 
+
+ /* News portion */
+
+.hd2{
+    font-size: 34px;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+    text-align: center;
+    margin-top: 61px;
+}
+.news-section{
+    width: 100%;
+    height: 590px;
+    display: flex;
+}
+#barbarian{
+    width: 584px;
+    height: 329px;
+    margin-left: 159px;
+    margin-top: 10px;
+}
+#wizard{
+    width: 584px;
+    height: 329px;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+.bar{
+    font-weight: bold;
+    margin-left: 171px;
+    line-height: 1.56;
+    font-size: 14px;
+     text-transform: uppercase;
+    margin-top: 18px;
+    margin-bottom: .5em;
+    color: #fb4a9d;
+    text-align: center;
+}
+.wiz{
+    font-weight: bold;
+    margin-left: 48px;
+    line-height: 1.56;
+    font-size: 14px;
+     text-transform: uppercase;
+    margin-top: 18px;
+    margin-bottom: .5em;
+    color: #fb4a9d;
+    text-align: center;
+}
+.hd3{
+    margin-left: 294px;
+    margin-top: 15px;
+}
+.hd4{
+    margin-left: 115px;
+    margin-top: 15px;
+}
+.coc-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#coc{
+    width: 204px;
+    height: 44px;
+    font-size: 13px;
+    background-color: #2d85f3;
+    color: white;
+    margin-top: -161px;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.third{
+    margin-top: -14px;
+    width: 112%;
+    height: 590px;
+    background-image: url(images/third-main.webp);
+    background-size: cover;
+    margin-left: -192px;
+    display: flex;
+}
+.third-left{
+    width: 76%;
+    height: 600px;
+    
+}
+.hd5{
+    margin-left: 356px;
+    color: white;
+    font-weight: bolder;
+    font-size: 34px;
+    padding-top: 184px;
+    line-height: 1.25;
+    margin-bottom: 21px;
+    font-family: SupercellHeadline-Heavy, sans-serif;
+
+}
+.third-left p{
+    font-size: 18px;
+    margin-left: 356px;
+    line-height: 1.56;
+    color: white;
+    font-family: SupercellText-Regular, Helvetica, Arial, sans-serif;
+}
+.hd6{
+    color: white;
+    margin-top: 10px;
+    margin-left: 356px;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.hd7{
+    color: white;
+    margin-top: 10px;
+    margin-left: 356px;
+    font-family: SupercellText-Regular, Helvetica, Arial, sans-serif;    font-size: 18px;
+}
+.third-icons{
+    display: flex;
+    margin-left: 356px;
+    width: 500px;
+    height: 100px;
+}
+.third-icon1 img{
+    width: 28px;
+    height: 23px;
+}
+.third-icon2 img{
+    width: 26px;
+    height: 24px;
+    margin-left: 20px;
+}
+.third-icon3 img{
+    width: 24px;
+    height: 22px;
+    margin-left: 20px;
+}
+.third-icon4 img{
+    width: 24px;
+    height: 22px;
+    margin-left: 20px;
+}
+.third-icon5 img{
+    width: 26px;
+    height: 22px;
+    margin-left: 20px;
+}
+.third-icon6 img{
+    width: 24px;
+    height: 22px;
+    margin-left: 20px;
+}
+ 
+.third-right{
+    width: 40%;
+    height: 460px;
+    background-image: url(images/third-portion.webp);
+    background-size: cover;
+    margin-left: 7px;
+    margin-top: 70px;
+}
+
+
+/* fourth-left */
+.fourth-image{
+    width: 100%;
+    height: 605px;
+    display: flex;
+}
+.fourth-left img{
+    width: 77%;
+    height: 336px;
+    margin-top: 119px;
+    margin-left: 161px;
+}
+.fourth-right img{
+    width: 91%;
+    height: 336px;
+    margin-top: 118px;
+    margin-left: 20px;
+}
+.pause img{
+    position: absolute;
+    width: 113px;
+    height: 114px;
+    margin-left: 396px;
+    margin-top: -229px;
+}
+.pause1 img{
+    position: absolute;
+    width: 113px;
+    height: 114px;
+    margin-left: 244px;
+    margin-top: -228px;
+}
+.card-details{
+    width: 583px;
+    height: 89px;
+    margin-left: 161px;
+    margin-top: -22px;
+    box-sizing: border-box;
+    box-shadow: 0 0 14px -10px;
+}
+.card-details h4{
+    font-size: 15px;
+    color: #2d85f3;
+    font-weight: bold;
+    padding-top: 38px;
+    margin-left: 40px;
+    width: 200px;
+}
+.card-details img{
+    width: 100px;
+    height: 22px;
+    margin-top: -46px;
+    margin-left: 437px;
+}
+.card-details1{
+    width: 568px;
+    height: 89px;
+    margin-left: 18px;
+    margin-top: -22px;
+    box-sizing: border-box;
+    box-shadow: 0 0 14px -10px
+}
+.card-details1 h4{
+    font-size: 15px;
+    color: #2d85f3;
+    font-weight: bold;
+    padding-top: 38px;
+    margin-left: 40px;
+    width: 200px;
+}
+.card-details1 img{
+    width: 100px;
+    height: 22px;
+    margin-top: -46px;
+    margin-left: 437px;
+}
+.arrow img{
+    width: 67px;
+    height: 72px;
+    transform: scalex(-1);
+    margin-top: -245px;
+    margin-left: 694px;
+    position: absolute;
+}
+.buttons{
+    width: 100%;
+    height: 50px;
+    
+}
+#first-button{
+    background-color: #2d85f3;
+    border: none;
+    margin-left: 47%;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+#second-button{
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: none;
+    margin-left: 17px;
+}
+
+
+/* Footer upper-portion */
+
+
+.footer-up{
+    display: flex;
+    background-image: linear-gradient(180deg, #245fc6 1%, #2887f0);
+    width: 100%;
+    height: 200px;
+    margin-top: 21px;
+}
+.left-footer h1{
+    text-transform: uppercase;
+    width: 73%;
+    height: 80px;
+    margin-left: 240px;
+    margin-bottom: 18px;
+    font-size: 34px;
+    color: white;
+    font-family: SupercellHeadline-Heavy, sans-serif;
+    padding-top: 16px;
+
+}
+
+.see-all{
+    width: 50%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.see-all input{
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 335px;
+    margin-top: -43px;
+    position: absolute;
+    width: 180px;
+    height: 43px;
+    font-weight: bold;
+
+}
+.right-footer{
+    width: 44%;
+    height: 300px;
+}
+
+.right-footer img{
+    width: 259px;
+    height: 244px;
+    margin-left: 159px;
+    margin-top: -64px;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+/* fooooter */
+
+
+
+.footer{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    margin-top: -22px;
+    display: flex;
+}
+.footer-head{
+    width: 60%;
+    height: 127px;
+    margin-top: -25px;
+}
+.footer-head h5{
+    width: 287px;
+    height: 25px;
+    color: white;
+    font-size: 12px;
+    padding-top: 45px;
+    padding-left: 247px;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    
+}
+.icons-footer{
+    margin-top: -12PX;
+    margin-left: 236px;
+}
+.icons-footer-img{
+    width: 26px;
+    height: 24px;
+    margin-left: 13px;
+}
+.footer-head-right{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: -15px;
+}
+#footer-head-right-img{
+    width: 149px;
+    height: 49px;
+    margin-left: 371px;
+    margin-top: 50px;
+}
+.footer-head-right img{
+    width: 169px ;
+    height: 51px;
+    margin-top: 50px;
+    margin-left: 14px;
+}
+.hr-div{
+    color: grey;
+    position: absolute;
+    width: 1023px;
+    margin-left: 248px;
+    margin-top: 132px;
+}
+.hr-div hr{
+    border: 1px solid #6a6a6a;
+}
+.last-table{
+    position: absolute;
+    width: 70%;
+    height: 250px;
+    color: white;
+    margin-top: 11%;
+    margin-left: 183px;
+    padding-left: 35px;
+    font-size: 14px;
+}
+
+.last-table-tr{
+    padding-left: 27px;
+}
+
+.last-quote-head{
+    width: 126px;
+    height: 200px;
+    margin-top: 23px;
+    margin-left: 26px;
+    color: #666;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+ }
+.last-quote {  
+    padding-top:3px ;
+}
+.last-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 16%;
+    margin-left: 80%;
+}
+.last-icon img{
+    width: 54px;
+    height: 48px;
+    
+}
